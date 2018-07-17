@@ -33,7 +33,7 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     # Load data from files
     positive_examples = list(open(positive_data_file, "r",encoding='utf8').readlines())
     positive_examples = [s.strip() for s in positive_examples]
-    negative_examples = list(open(negative_data_file, "r",encoding="utf8").readlines())
+    negative_examples = list(open(negative_data_file, "r",encoding='utf8').readlines())
     negative_examples = [s.strip() for s in negative_examples]
     # Split by words
     x_text = positive_examples + negative_examples

@@ -1,0 +1,2 @@
+When compared adagrad optimizer has more accuracy than Gradient descent optimizer with same filter size and final layer. 
+When compared with data sets MINIST dataset contains more accuracy than fashion dataset with same optimizer.
